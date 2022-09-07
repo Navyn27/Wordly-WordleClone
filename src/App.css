@@ -1,0 +1,33 @@
+.App {
+  padding-top: 30px;
+  display: grid;
+  place-items: center;
+}
+body{
+  background-color:rgb(24, 24, 24);
+}
+h1{
+  color:white;
+}
+.inputField{
+  margin-top: 6px;
+  margin-left:6px;
+  height:55px;
+  width:55px;
+  font-size:30px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  border: solid rgb(75, 74, 74) 2px;
+  background-color: rgb(24,24,24);
+  color:white;
+}
+.row{
+  display: flex;
+  /* justify-content: space-between; */
+  /* background-color: grey;  */
+}
+.rows{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+}
