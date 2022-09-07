@@ -3,7 +3,11 @@ import Input_row from "./Input-row";
 
 document.addEventListener("keyup", function(event) {
   if (event.key === "Enter") {
-      alert("Enter pressed!")
+      const fields = document.getElementsByClassName("inputField");
+      fields[0].style.animation = "none";
+      fields[0].style.animation = "rotation 0.6s";
+      // fields[0].style.animation = "display:block";
+
   } 
 });
 

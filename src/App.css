@@ -10,6 +10,7 @@ h1{
   color:white;
 }
 .inputField{
+  caret-color:transparent;
   margin-top: 6px;
   margin-left:6px;
   height:55px;
@@ -21,6 +22,31 @@ h1{
   border: solid rgb(75, 74, 74) 2px;
   background-color: rgb(24,24,24);
   color:white;
+  animation: rotation 0.8s;
+  outline: none;
+}
+.fieldb{
+  animation-delay: 80ms;
+}
+.fieldc{
+  animation-delay: 160ms;
+}
+.fieldd{
+  animation-delay: 240ms;
+}
+.fielde{
+  animation-delay: 320ms;
+}
+@keyframes rotation {
+  0%{
+    transform: rotateX(0deg);
+  }
+  60%{
+    transform: rotateX(90deg);
+  }
+  100%{
+    transform: rotateX(0deg);
+  }
 }
 .row{
   display: flex;
