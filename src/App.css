@@ -3,57 +3,83 @@
   display: grid;
   place-items: center;
 }
-body{
-  background-color:rgb(24, 24, 24);
+body {
+  background-color: rgb(24, 24, 24);
 }
-h1{
-  color:white;
+h1 {
+  color: white;
+  font-family: "Quicksand", sans-serif;
 }
-.inputField{
-  caret-color:transparent;
+.inputField {
+  caret-color: transparent;
   margin-top: 6px;
-  margin-left:6px;
-  height:55px;
-  width:55px;
-  font-size:30px;
+  margin-left: 6px;
+  height: 55px;
+  width: 55px;
+  font-size: 30px;
   text-align: center;
   text-transform: uppercase;
   font-weight: 700;
+  font-family: "Quicksand", sans-serif;
   border: solid rgb(75, 74, 74) 2px;
-  background-color: rgb(24,24,24);
-  color:white;
+  background-color: rgb(24, 24, 24);
+  color: white;
   animation: rotation 0.8s;
   outline: none;
 }
-.fieldb{
+.fieldb {
   animation-delay: 80ms;
 }
-.fieldc{
+.fieldc {
   animation-delay: 160ms;
 }
-.fieldd{
+.fieldd {
   animation-delay: 240ms;
 }
-.fielde{
+.fielde {
   animation-delay: 320ms;
 }
 @keyframes rotation {
-  0%{
+  0% {
     transform: rotateX(0deg);
   }
-  60%{
+  60% {
     transform: rotateX(90deg);
   }
-  100%{
+  100% {
     transform: rotateX(0deg);
   }
 }
-.row{
+.row {
   display: flex;
-  /* justify-content: space-between; */
-  /* background-color: grey;  */
 }
-.rows{
-  display: grid;
-  grid-template-columns:1fr 1fr 1fr 1fr 1fr;
+.letterBtn {
+  height: 60px;
+  width: 40px;
+  background-color: rgb(78, 78, 78);
+  border: none;
+  font-size: 20px;
+  border-radius: 4px;
+  font-family: "Quicksand", sans-serif;
+  color: whitesmoke;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+.keyboard {
+  margin-top: 3%;
+  text-align: center;
+}
+.errorMessage {
+  color: red;
+  font-family: "Quicksand", sans-serif;
+  font-size: 170%;
+}
+.enter {
+  width: 80px;
+}
+.del {
+  width: 57px;
+}
+.del img {
+  height: 40%;
 }

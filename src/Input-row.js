@@ -1,21 +1,50 @@
 const InputFields = (name) => {
-    return(
-        <>
-            <input type="text" className="inputField fielda" maxlength="1"/>
-            <input type="text" className="inputField fieldb" maxlength="1"/>
-            <input type="text" className="inputField fieldc" maxlength="1"/>
-            <input type="text" className="inputField fieldd" maxlength="1"/>
-            <input type="text" className="inputField fielde" maxlength="1"/>
-        </>
-    );
-}
+  return (
+    <div className="parent">
+      <div className="row">
+        <input type="text" className="inputField fielda" maxlength="1" />
+        <input type="text" className="inputField fieldb" maxlength="1" />
+        <input type="text" className="inputField fieldc" maxlength="1" />
+        <input type="text" className="inputField fieldd" maxlength="1" />
+        <input type="text" className="inputField fielde" maxlength="1" />
+      </div>
+      <div>
+        <input type="text" className="inputField fielda" maxlength="1" />
+        <input type="text" className="inputField fieldb" maxlength="1" />
+        <input type="text" className="inputField fieldc" maxlength="1" />
+        <input type="text" className="inputField fieldd" maxlength="1" />
+        <input type="text" className="inputField fielde" maxlength="1" />
+      </div>
+      <div>
+        <input type="text" className="inputField fielda" maxlength="1" />
+        <input type="text" className="inputField fieldb" maxlength="1" />
+        <input type="text" className="inputField fieldc" maxlength="1" />
+        <input type="text" className="inputField fieldd" maxlength="1" />
+        <input type="text" className="inputField fielde" maxlength="1" />
+      </div>
+      <div>
+        <input type="text" className="inputField fielda" maxlength="1" />
+        <input type="text" className="inputField fieldb" maxlength="1" />
+        <input type="text" className="inputField fieldc" maxlength="1" />
+        <input type="text" className="inputField fieldd" maxlength="1" />
+        <input type="text" className="inputField fielde" maxlength="1" />
+      </div>
+      <div>
+        <input type="text" className="inputField fielda" maxlength="1" />
+        <input type="text" className="inputField fieldb" maxlength="1" />
+        <input type="text" className="inputField fieldc" maxlength="1" />
+        <input type="text" className="inputField fieldd" maxlength="1" />
+        <input type="text" className="inputField fielde" maxlength="1" />
+      </div>
+      <div>
+        <input type="text" className="inputField fielda" maxlength="1" />
+        <input type="text" className="inputField fieldb" maxlength="1" />
+        <input type="text" className="inputField fieldc" maxlength="1" />
+        <input type="text" className="inputField fieldd" maxlength="1" />
+        <input type="text" className="inputField fielde" maxlength="1" />
+      </div>
+    </div>
+  );
+};
 
-const Row = () => {
-    return (
-        <>
-            {InputFields()}
-        </>
-    )
-}
-
-export default Row;
+export default InputFields;
